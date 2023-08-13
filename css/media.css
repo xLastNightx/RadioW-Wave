@@ -1,10 +1,10 @@
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
 
   .container {
     padding-right: 68px;
     padding-left: 68px;
   }
-  
+
   /* Header */
 
   .header {
@@ -29,10 +29,10 @@
   .header__add {
     position: absolute;
     display: block;
-    top: 80px;
+    top: 81px;
     left: 0;
     right: 0;
-    padding: 17px 0;
+    padding: 21px 0;
     border-bottom: 1px solid #cacaca;
     border-top: 1px solid #cacaca;
   }
@@ -42,7 +42,7 @@
   }
 
   .nav__item:not(:last-child) {
-    margin-right: 104.5px;
+    margin-right: 95.5px;
   }
 
   .header__form {
@@ -53,13 +53,29 @@
   /* Hero */
 
   .hero__div {
-    min-height: 451px;
-    background-position: 581px 86px;
-    background-size: 259px 275px;
+    min-height: 449px;
+    background-image: url(../img/microphone1200.jpg);
+    background-position: 580px 89px;
+    background-size: 260px 270px;
+  }
+
+  .hero__title {
+    margin-bottom: 14px;
   }
 
   .hero__text {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+  }
+
+  /* podcasts */
+
+  .podcasts__title {
+    margin-top: 3px;
+    margin-bottom: 29px;
+  }
+
+  .podcasts__block {
+    padding: 40px 50px 40px 142px;
   }
 
   /* Broadcasts */
@@ -68,24 +84,41 @@
     margin-bottom: -1px;
   }
 
+  .left__microphone {
+    margin-bottom: 19px;
+  }
+
+  .left__btn {
+    padding: 9px 54px;
+  }
+
   /* right */
 
   .right__item:not(:nth-last-child(-n+2)) {
     margin-bottom: 30px;
   }
 
+  .right__block {
+    padding: 169px 16px 17px 14px;
+  }
+
   /* Guests */
 
-  .guests__const {
-    margin-bottom: 1px;
+  .guests {
+    padding-top: 95px;
   }
 
   .guests__text {
     max-width: 70%;
+    margin-bottom: 49px;
+  }
+
+  .guests__name {
+    margin-bottom: 6px;
   }
 
   .guests__descr {
-    font-size: 15.9px;
+    line-height: 182%;
   }
 
   /* Playlists */
@@ -96,22 +129,25 @@
 
   /* left */
 
+  .playlists__title {
+    margin-top: 3px;
+    margin-bottom: 11px;
+  }
+
   .playlists__left {
     margin-bottom: 10px;
   }
 
-  .playlists__text {
-    font-size: 15.6px;
-  }
 
   /* Right */
 
   .playlists__right {
     margin-left: -1px;
+    margin-top: 14px;
   }
 
   .group__block {
-    padding: 33px 4px 40px 122px;
+    padding: 40px 4px 41px 122px;
     background-size: 112px 112px;
     background-position: left;
   }
@@ -139,8 +175,8 @@
   }
 
   .adv__new {
-    top: 120px;
-    left: 15px;
+    top: 120.5px;
+    left: 15.4px;
     max-width: 23.2%;
   }
 
@@ -148,21 +184,22 @@
 
   .adv__right {
     background-image: url(../img/wave2.svg);
-    background-size: 398px 290px;
+    background-size: 399px 288px;
   }
 
   .adv__title {
-    margin-bottom: 51px;
+    margin-top: 3px;
+    margin-bottom: 48px;
   }
 
   .adv__text {
-    margin-bottom: 14px;
-    line-height: 185%;
+    margin-bottom: 12px;
+    line-height: 181%;
   }
 
   .adv__descr {
-    margin-bottom: 16px;
-    font-size: 15.2px;
+    margin-bottom: 25px;
+    line-height: 182%;
   }
 
   /* Abou-us */
@@ -173,26 +210,17 @@
     background-size: 255px 255px;
   }
 
-  .about-us__descr {
-    font-size: 19.4px;
-    line-height: 165%;
+  .about-us__title {
+    margin-bottom: 12px;
   }
 
   .about-us__list {
     flex-wrap: wrap;
-    margin-bottom: 32px
+    margin-bottom: 31px
   }
 
   .about-us__item:not(:nth-last-child(-n+2)) {
-    margin-bottom: 32px;
-  }
-
-  .about-us__name {
-    margin-bottom: -1px;
-  }
-
-  .about-us__words {
-    font-size: 15.4px;
+    margin-bottom: 30px;
   }
 
   /* form */
@@ -206,35 +234,35 @@
   }
 
   .form__wrap:not(:last-child) {
-    margin-right: 4%;
+    margin-right: 3.7%;
   }
 
   /* Footer */
 
   .footer {
-    background-position: 15px 135px;
+    background-position: -18px 136px;
   }
 
   /* top */
 
+  .footer__logo {
+    margin-bottom: 15px;
+  }
+
   .footer__right {
-    max-width: 54%;
+    max-width: 54.7%;
   }
 
   .footer__top {
-    margin-bottom: 112px;
-  }
-
-  .footer__bottom-text {
-    margin-top: 7px;
+    margin-bottom: 113px;
   }
 
   .nav__list-right {
-    margin-top: -3px;
+    margin-top: -1px;
   }
 
   .nav__item-right:not(:nth-last-child(-n+3)) {
-    margin-bottom: 3%;
+    margin-bottom: 4%;
   }
 }
 
@@ -248,17 +276,36 @@
   /* Header */
 
   .nav__item:not(:last-child) {
-    margin-right: 53px;
+    margin-right: 47px;
+  }
+
+  .nav__item:nth-child(1) {
+    margin-right:37px;
+  }
+
+  .nav__item:nth-child(2) {
+    margin-right:47px;
   }
 
   .nav__link {
     font-size: 16px;
   }
 
+  .header__add {
+    position: absolute;
+    display: block;
+    top: 80px;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #cacaca;
+    border-top: 1px solid #cacaca;
+  }
+
   /* Hero */
 
   .hero__div {
-    padding-top: 91px;
+    padding-top: 95px;
     background-image: none;
   }
 
@@ -268,12 +315,8 @@
     margin-top: -4px;
   }
 
-  .podcasts__const {
-    margin-bottom: 1px;
-  }
-
   .podcasts__item:not(:last-child) {
-    margin-bottom: 31px;
+    margin-bottom: 30px;
   }
 
   /* Broadcasts */
@@ -292,7 +335,12 @@
   }
 
   .broadcasts__right {
-    margin-top: 172px;
+    margin-top: 169px;
+    margin-bottom: 92px;
+  }
+
+  .right__item:not(:nth-last-child(-n+2)) {
+    margin-bottom: 29px;
   }
 
   .broadcasts__left {
@@ -302,7 +350,7 @@
 
   .left__top {
     position: absolute;
-    top: -1px;
+    top: 0;
     left: 15px;
   }
 
@@ -311,30 +359,24 @@
   }
 
   .left__microphone {
-    width: 52%;
+    width: 51%;
+    margin-bottom: 25px;
   }
 
   .left__microphone img {
-    min-width: 72px;
+    min-width: 70px;
+    margin-left: 3px;
   }
 
   .left__btn {
     margin-bottom: 8px;
   }
 
-  .broadcasts__right {
-    margin-bottom: 90px;
-  }
-
   /* Guests */
-
-  .guests__const {
-    margin-bottom: 2px;
-  }
 
   .guests__text {
     max-width: 100%;
-    margin-bottom: 52px;
+    margin-bottom: 49px;
   }
 
   .guests__item {
@@ -342,11 +384,16 @@
   }
 
   .guests__item:not(:last-child) {
-    margin-bottom: 52px;
+    margin-bottom: 50px;
   }
 
   .guests__item img {
-    margin-bottom: 28px;
+    margin-bottom: 30px;
+  }
+
+  .guests__item:nth-child(2) img {
+    margin-top: -3px;
+    margin-bottom: 33px;
   }
 
   .guests__block {
@@ -354,10 +401,10 @@
   }
 
   .guests__descr {
-    width: 68%;
+    width: 67%;
   }
 
-  /* Playlists */ 
+  /* Playlists */
 
   .playlists__const {
     margin-bottom: 17px;
@@ -390,18 +437,18 @@
 
   .adv__title {
     max-width: 90%;
-    font-size: 46.5px;   
-    margin-bottom: 54px;
+    margin-bottom: 48px;
   }
 
   .adv__right {
     background-image: url(../img/wave3.svg);
-    background-size: 541px 294px;
+    background-size: 541px 288px;
   }
 
   /* About-us */
 
   .about-us {
+    margin-bottom: -2px;
     background-image: url(../img/loop-sparkle.svg);
     background-position: 0px 389px;
     background-repeat: no-repeat;
@@ -410,15 +457,11 @@
 
   .about-us__inf {
     background-image: none;
-    margin-bottom: 173px;
+    padding-bottom: 173px;
   }
 
   .about-us__list {
     margin-bottom: 31px;
-  }
-
-  .about-us__words {
-    font-size: 15.6px;
   }
 
   /* form */
@@ -442,7 +485,8 @@
   /* footer */
 
   .footer {
-    background-position: 19px 298px;
+    background-position: 17px 298px;
+    background-size: 1926px 290px;
   }
 
   /* top */
@@ -452,12 +496,12 @@
   }
 
   .footer__top {
-    margin-bottom: 97px;
+    margin-bottom: 99px;
   }
 
   .footer__logo {
-    margin: auto; 
-    margin-bottom: 18px;
+    margin: auto;
+    margin-bottom: 14px;
   }
 
   .footer__list-left {
@@ -470,7 +514,7 @@
   }
 
   .footer__left {
-    margin-bottom: 76px;
+    margin-bottom: 75px;
   }
 
   /* right */
@@ -483,16 +527,28 @@
     width: 100%;
   }
 
+  .nav__list-right {
+    margin-left: -5px;
+  }
+
   .nav__item-right:not(:nth-last-child(-n+3)) {
-    margin-bottom: 4.5%;
-  } 
+    margin-bottom: 5.1%;
+  }
 
   .nav__item-right:nth-child(3n+3) {
     width: 13.2%;
   }
 
-  .nav__item-right:not(:nth-child(3n+3)) {
-    margin-right: 23.4%;
+  .nav__item-right:nth-child(3n+1) {
+    margin-right: 22.7%;
+  }
+
+  .nav__item-right:nth-child(3n+2) {
+    margin-right: 24.1%;
+  }
+
+  .nav__item-right:nth-child(3n+3) {
+    margin-right: 0;
   }
 }
 
@@ -515,7 +571,7 @@
   /* Header */
 
   .header {
-    padding-top: 14px;
+    padding-top: 15px;
     padding-bottom: 0;
   }
 
@@ -529,7 +585,7 @@
 
   .header__add {
     top: 55px;
-    padding: 13px 0 13px 32px;
+    padding: 16px 0 15px 27px
   }
 
   .header__form {
@@ -550,13 +606,21 @@
     overflow-x: auto;
     white-space: nowrap;
   }
-  
+
   ::-webkit-scrollbar {
     display: none;
   }
 
   .nav__item:not(:last-child) {
-    margin-right: 27px;
+    margin-right: 14px;
+  }
+
+  .nav__item:nth-child(2) {
+    margin-right: 22px;
+  }
+
+  .nav__item:nth-child(3) {
+    margin-right: 23px;
   }
 
   .nav__item {
@@ -566,32 +630,26 @@
   /* Hero */
 
   .hero__div {
-
     min-height: 330px;
     padding-top: 90px;
   }
 
   .hero__title {
     font-size: 32px;
-    margin-bottom: 5px;
-  }
-
-  .hero__italic {
-    margin-left: -3px;
+    margin-bottom: 7px;
   }
 
   .hero__text {
-    margin-bottom: 22px;
-    font-size: 13.6px;
-    line-height: 154%;
+    margin-bottom: 20px;
+    font-size: 14px;
   }
 
   .hero__btn {
-    padding: 12px 45px;
+    padding: 17px 46px 17px 45px;
     font-size: 16px;
   }
 
- 
+
   /* Broadcasts */
 
   .broadcasts {
@@ -602,14 +660,22 @@
     margin-bottom: 1px;
   }
 
+  .podcasts__title {
+    margin-top: 2px;
+  }
+
   .broadcasts__right {
-    margin-top: 54px;
+    margin-top: 52px;
     margin-bottom: 42px;
   }
 
   .right__block {
-    padding: 60px 10px 12px 10px;
-    background-size: 100% 34.5%;
+    padding: 60px 10px 10px 9px;
+    background-size: 102% 33.5%;
+  }
+
+  .broadcasts__reverse {
+    margin-top: 2px;
   }
 
   .right__item {
@@ -624,7 +690,7 @@
   .right__date {
     margin: 0;
     font-size: 9px;
-    line-height: 10px;
+    line-height: normal;
   }
 
   .right__text {
@@ -634,7 +700,7 @@
   .right__item:not(:nth-last-child(-n+2)) {
     margin-bottom: 29px;
   }
-  
+
   .right__1 {
     background-image: url(../img/bro1.jpg);
   }
@@ -659,6 +725,30 @@
     background-image: url(../img/bro6.jpg);
   }
 
+  .right__1 .right__title {
+    margin-bottom: -12px;
+  }
+
+  .right__2 .right__title {
+    margin-bottom: -24px;
+  }
+
+  .right__3 .right__title {
+    margin-bottom: -24px;
+  }
+
+  .right__4 .right__title {
+    margin-bottom: -33px;
+  }
+
+  .right__5 .right__title {
+    margin-bottom: -33px;
+  }
+
+  .right__6 .right__title {
+    margin-bottom: -24px;
+  }
+
   /* Left */
 
   .left__bottom {
@@ -667,24 +757,24 @@
 
   .left__microphone img {
     position: absolute;
-    top: 17px;
-    left: -23px;
-    min-width: 78px;
+    top: 18px;
+    left: -25px;
+    min-width: 77px;
   }
 
   .left__microphone {
-    width: 60%;
+    width: 61%;
   }
 
   .left__descr {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 18px;
+    margin-top: 19px;
   }
 
   .left__text {
-    margin-bottom: 10px;
-    font-size: 13.5px;
+    margin-bottom: 7px;
+    font-size: 14px;
   }
 
   .left__btn {
@@ -696,31 +786,43 @@
   /* Guests */
 
   .guests__title {
-    margin-bottom: 14px;
-    font-size: 23.3px;
+    margin-top: 2px;
+    margin-bottom: 11px;
+    font-size: 24px;
   }
 
   .guests__gener {
-    margin-bottom: 0;
-    font-size: 13.4px;
+    margin-bottom: 1px;
+    font-size: 14px;
   }
 
   .guests__text {
-    margin-bottom: 31px;
-    font-size: 13.7px;
+    margin-bottom: 29px;
+    font-size: 14px;
+    line-height: 158%;
   }
 
   .guests__item {
     min-height: 525px;
   }
 
+  .guests__item:nth-child(2) img {
+    margin-top: 0;
+    margin-bottom: 11px;
+  }
+
   .guests__item img {
-    margin-bottom: 9px;
+    margin-bottom: 10px;
+    max-width: 99%;
+  }
+
+  .guests__name {
+    margin-bottom: 7px;
   }
 
   .guests__descr {
     width: 100%;
-    line-height: 182%;
+    line-height: 181%;
   }
 
   .guests__block {
@@ -728,20 +830,21 @@
   }
 
   .guests__btn {
-    padding: 2px 14px;
+    padding: 8px 13px;
   }
 
   .guests__item:not(:last-child) {
-    margin-bottom: 28px;
+    margin-bottom: 29px;
   }
 
   /* Playlists */
 
   .playlists__const {
     margin-bottom: 1px;
-  } 
+  }
 
   .playlists__title {
+    margin-top: 2px;
     margin-bottom: 11px;
   }
 
@@ -754,13 +857,17 @@
     font-size: 11.9px;
   }
 
+  .playlists__right {
+    margin-left: 0px;
+}
+
   /* group */
 
   .group__block {
-    padding: 118px 6px 8px 10px;
+    padding: 123px 5px 9px 9px;
     background-size: 112px 113px;
     background-position: top;
-    background-size: 100% 71.5%;
+    background-size: 101% 71.8%;
   }
 
   .group__country {
@@ -784,21 +891,25 @@
   /* adv */
 
   .adv__left {
-    margin-bottom: 32px;
+    margin-bottom: 28px;
     padding-top: 1px;
     position: relative;
   }
 
+  .adv__radio {
+    margin-left: 1px;
+  }
+
   .adv__new {
-    top: 1px;
-    left: 16px;
+    top: 0.1px;
+    left: 15.5px;
     max-width: 22%;
   }
 
   .adv__title {
     max-width: 100%;
-    margin-bottom: 40px;
-    font-size: 23px;
+    margin-bottom: 41px;
+    font-size: 24px;
   }
 
   .adv__right {
@@ -808,27 +919,28 @@
   }
 
   .adv__text {
-    line-height: 153%;
-    font-size: 14.6px;
+    line-height: 158%;
+    font-size: 14px;
     margin-bottom: 12px;
   }
 
   .adv__descr {
-    font-size: 13.6px;
-    line-height: 162%;
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 157%;
   }
 
   .adv__cost {
-    margin-bottom: 24px;
-    font-size: 28px;
+    margin-bottom: 22px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 17px;
   }
 
   .adv__btn {
-    padding: 13px 18px 12px 14px;
-    font-size: 16.5px;
+    padding: 13px 15px 12px 14px;
+    font-size: 16px;
   }
 
   .adv__icon {
@@ -836,21 +948,21 @@
   }
 
   /* About-us */
-  
+
   .about-us {
     background-image: none;
   }
 
   .about-us__inf {
-    margin-bottom: 33px;
+    padding-bottom: 31px;
   }
 
   .about-us__title {
-    margin-bottom: 14px;
+    margin-bottom: 11px;
   }
 
   .about-us__text {
-    margin-bottom: 4px;
+    margin-bottom: 5px;
     font-size: 14px;
     line-height: 150%;
   }
@@ -861,30 +973,30 @@
   }
 
   .about-us__name {
-    width: 97%;
-    margin-top: 9px;
-    margin-bottom: 3px;
-    font-size: 14.5px;
+    width: 96%;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 14px;
     line-height: 18px;
   }
 
   .about-us__words {
-    font-size: 11.5px;
+    font-size: 12px;
     line-height: 16px;
   }
 
   .about-us__item:not(:nth-last-child(-n+2)) {
-    margin-bottom: 31px;
+    margin-bottom: 30px;
   }
 
   .about-us__list {
-    margin-bottom: 32px;
+    margin-bottom: 30px;
   }
 
   /* form */
 
   .form__textarea {
-    padding: 12px 22px;
+    padding: 16px 22px;
     border-radius: 20px;
     font-size: 16px;
   }
@@ -903,25 +1015,25 @@
 }
 
   .form__btn {
-    padding: 12px 46px;
-    margin-bottom: 15px;
+    padding: 17px 45px;
+    margin-bottom: 17px;
     font-size: 16px;
   }
 
   .form__label {
     padding-left: 2.4em;
-    font-size: 9.3px;
+    font-size: 9px;
   }
 
   .form__check-box {
     margin-left: -2.3em;
-    margin-top: 0.55em;
+    margin-top: 0.4em;
   }
 
   /* footer */
 
   .footer {
-    padding-top: 56px;
+    padding-top: 54px;
     background-position: 0px 306px;
     background-size: 1846px 290px;
   }
@@ -929,15 +1041,15 @@
   /* top */
 
   .footer__top {
-    margin-bottom: 59px;
+    margin-bottom: 57px;
   }
 
   .footer__left {
-    margin-bottom: 79px;
+    margin-bottom: 76px;
   }
 
   .footer__logo {
-    margin-bottom: 16px;
+    margin-bottom: 15px;
   }
 
   .nav {
@@ -961,11 +1073,11 @@
   }
 
   .nav__item-right:not(:nth-child(2n)) {
-    margin-right: 32.4%;
+    margin-right: 31.8%;
   }
 
   .nav__item-right:not(:nth-last-child(-n+2)) {
-    margin-bottom: 6.5%;
+    margin-bottom: 6.8%;
   }
 
   .nav__item-right:nth-child(1) {
@@ -974,7 +1086,7 @@
 
   .nav__item-right:nth-child(2) {
     order: 7;
-    margin-right: 32.4%;
+    margin-right: 31.8%;
   }
 
   .nav__item-right:nth-child(3) {
@@ -984,7 +1096,7 @@
 
   .nav__item-right:nth-child(4) {
     order: 3;
-    margin-right: 32.4%;
+    margin-right: 31.8%;
   }
 
   .nav__item-right:nth-child(5) {
@@ -1012,7 +1124,7 @@
   /* bot */
 
   .footer__bottom-text {
-    font-size: 12.7px;
+    font-size: 12px;
   }
 
   .reg {
@@ -1027,7 +1139,7 @@
 @media (max-width: 478px) {
 
   /* Header */
-  
+
   .nav__list {
     justify-content: start;
   }
@@ -1051,21 +1163,25 @@
   .hero__div {
     min-height: 355px;
   }
-  
+
   /* Podcasts */
 
   .podcasts__const {
-    margin-bottom: 0;
+    margin-bottom: 1px;
   }
 
   .podcasts__title {
-    margin-bottom: 21px;
+    margin-bottom: 19px;
   }
 
   .podcasts__block {
-    padding: 100px 64px 30px 16px;
+    padding: 102px 64px 30px 16px;
     background-position: top;
-    background-size: 100% 38.5%;
+    background-size: 100% 39%;
+  }
+
+  .podcasts__time {
+    margin-bottom: 8px;
   }
 
   .podcasts__date {
@@ -1075,6 +1191,7 @@
 
   .podcasts__text {
     font-size: 16px;
+    margin-bottom: 5px;
   }
 
   .podcasts__name {
@@ -1082,13 +1199,13 @@
   }
 
   .podcasts__item:not(:last-child) {
-    margin-bottom: 29px;
+    margin-bottom: 30px;
   }
 
   .podcasts__1 {
     background-image: url(../img/smpod1.jpg);
   }
-  
+
   .podcasts__2 {
     background-image: url(../img/smpod2.jpg);
   }
@@ -1130,7 +1247,7 @@
   }
 
   .footer {
-    background-position: 0px 272px;
+    background-position: 0px 270px;
   }
 }
 
@@ -1139,7 +1256,7 @@
   /* Hero */
 
   .hero__div {
-    min-height: 393px;
+    min-height: 390px;
   }
 
   /* guests */
@@ -1147,11 +1264,11 @@
   .guests__block {
     min-height: 356px;
   }
-  
+
   /* ADV */
 
   .adv__right {
-    background-size: 255px 135px;
+    background-size: 254px 140px;
   }
 
 }
